@@ -1,0 +1,102 @@
+﻿
+@model T_SerYearlyPriceView
+ 
+<div class="netcaretable">
+                        <div class="columns  columns-right btn-group pull-left bottombtn" style=" " id="tbar3">
+                            <button class="btn btn-default" type="button" title="增加" id="add3" style="display:none" onclick="if($('#SerYearlyPriceId').val()==0){ msg.info('请先保存主数据！');return false;};msg.loadBtn('service/BumdPriceManage/Edit?type=3','新增');">
+                                <i class="fa fa-plus"></i>&nbsp;增加
+                            </button>
+                            <button class="btn btn-default" type="button" title="导入" id="import3" style="display:none" onclick="if ($('#SerYearlyPriceId').val() == 0) { msg.info('请先保存主数据！'); return false; }; msg.loadBtn('admin/SysAttachment/Index?type=3', '新增', 700, 450);">
+                                <i class="fa fa-file-excel-o"></i>&nbsp;导入
+                            </button>
+                            <button class="btn btn-default" type="button" title="下载" id="export3" onclick="location.href='@(Url.Content("~/Images/BUMD/年度一般经销商价格-BUI (CS）.xlsx"))' ">
+                                <i class="fa fa-download"></i>&nbsp;下载
+                            </button>
+                            <button class="btn btn-default" type="button" title="删除" id="delete3" style="display:none" onclick="DeletePro('productinfo3','tbar3');">
+                                <i class="fa fa-minus"></i>&nbsp;删除
+                            </button>
+                        </div>
+                        <table id="productinfo3"></table>
+                    </div>
+
+					<script>
+					var productColumns3 = [
+        {
+            checkbox: true
+        }, {
+            title: '序号',
+            align: 'center',
+            width: 50,
+            formatter: function (value, row, index) {
+                return m_pagerow + index + 1;
+            }
+        }, {
+            field: 'BU',
+            title: 'BU',
+            visible: true,
+            align: 'center'
+        }, {
+            field: 'ProductCode',
+            title: '产品编码',
+            visible: true,
+            align: 'center'
+        }, {
+            field: 'ProductName',
+            title: '产品名称',
+            align: 'center',
+			width:350,
+            formatter: function (value, row, index) {
+			 
+                return '<span style="text-decoration: underline;cursor: pointer;" onclick="openLayer(\'service/BumdPriceManage/Edit/' + row.SerYearlyPriceListId + '?type=3\',\'更新\',\'\',\'\','+jsonObj._Status+');">' + value + '</span>';
+            }
+        }, {
+            field: 'WholesalerPrice',
+            title: '经销商价格',
+            align: 'center',
+            formatter: function (value, row, index) {
+                return  _numberDelimiter.getNumberDelimiterResult((value).toFixed(2))+"元";
+            }
+        }, {
+            field: 'SpotDealerPrice',
+            title: 'Spot Dealer价格',
+            align: 'center',
+			hidden:true,
+            formatter: function (value, row, index) {
+                return  _numberDelimiter.getNumberDelimiterResult((value).toFixed(2))+"元";
+            }
+
+        }, {
+            field: 'EffectiveStart',
+            title: '有效期起',
+            align: 'center'
+        }, {
+            field: 'EffectiveEnd',
+            title: '有效期止',
+            align: 'center'
+        } , {
+            field: 'Remark',
+            title: '备注',
+            align: 'center'
+        }
+    ];
+
+	     
+	var dbQueryParamsPro3 = function (params) {
+		var temp = {};
+		temp["PageSize"] = params.limit;
+		temp["PageIndex"] = params.offset;
+		temp["SerYearlyPriceId"] = $("#SerYearlyPriceId").val(); 
+		temp["TableType"] = 3; 
+		return temp;
+	};
+     
+    function loadProduct3(fun) {
+         var actionUrl = path + 'service/BumdPriceManage/DetailList';
+        InitTable($("#productinfo3"), actionUrl, dbQueryParamsPro3, productColumns3, "", "", "tbar3",function(e){
+            $("#ba3").html(e.total);
+            if(fun){
+                fun();
+            }
+		});
+    }
+	</script>

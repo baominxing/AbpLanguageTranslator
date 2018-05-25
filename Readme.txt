@@ -1,0 +1,9 @@
+该解决方案包括有三个项目:
+1.ExportUnmatchedChineseWords
+用于抓取指定路径中所有文件中包含的中文词组，并与指定的资源文件中的中文值作比较，筛选出不存在资源文件中的中文集合，并导出
+
+2.ContactLabelKey
+用于将ExportUnmatchedChineseWords项目中导出的中文词组集合翻译成对应的英文后，进行组合成一定格式的Key，然后导出Key集合
+
+3.MultiLangTrans
+用于将ContactLabelKey项目中导出的Key集合去替换指定路径中所有文件包含的中文词组

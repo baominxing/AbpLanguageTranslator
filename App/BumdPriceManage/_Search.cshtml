@@ -1,0 +1,90 @@
+﻿
+
+@model T_SerYearlyPriceView
+ 
+
+<div class="content " style="background: white; min-height: 10px;    padding: 10px 10px 00px 10px;">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="marginbottom-10">
+                <button type="button" class="btn fl btn-default btn-flat" id="btn_query">
+                    <i class="fa  fa-search"></i>&nbsp;搜索
+                </button>
+                <button type="button" class="btn fl btn-default btn-flat"
+                        aria-expanded="true" onclick="accordionup('collapse')">
+                    筛选项
+                </button>
+            </div>
+        </div>
+        <div class="col-lg-12">
+
+            <div id="collapse" style="margin-bottom: 10px;margin-bottom: 10px;">
+                <div class="border-dashed">
+                    <form class="form-horizontal pageform">
+                        <div class="box-body">
+                            <div class="row">
+								<div class="col-sm-4" style="">
+									<div class="form-group">
+									  <label class="col-md-s1 s_layout control-label">
+										 
+										<label class="col-md-s1 s_layout control-label" for="ApplyNo">编码</label>
+									  </label>
+									  
+									  <div class="col-md-s2 s_layout"> <input class="form-control" data-val="true" data-val-length="字段 申请单 必须是最大长度为 30 的字符串。" data-val-length-max="30" id="ApplyNo" name="ApplyNo" placeholder="编码" type="text" value=""></div>
+									</div>
+							    </div>	
+								<div class="col-sm-4" style="">
+									<div class="form-group">
+									  <label class="col-md-s1 s_layout control-label">
+										@Html.LabelFor(m => m.UserName, new { @class = "col-md-s1 s_layout control-label" })
+									  </label>
+									  <div class="col-md-s2 s_layout"> 
+									   @Html.EditorFor(m => m.UserName )
+										</div>
+									</div>
+							    </div>	
+								<div class="col-sm-4" style="">
+									<div class="form-group">
+									  <label class="col-md-s1 s_layout control-label">
+										@Html.LabelFor(m => m.StartTime, new { @class = "col-md-s1 s_layout control-label" })
+									  </label>
+									  <div class="col-md-s2 s_layout"> @Html.EditorFor(m => m.StartTime )</div>
+									</div>
+							    </div>	
+								<div class="col-sm-4" style="">
+									<div class="form-group">
+									  <label class="col-md-s1 s_layout control-label">
+										@Html.LabelFor(m => m.EndTime, new { @class = "col-md-s1 s_layout control-label" })
+									  </label>
+									  <div class="col-md-s2 s_layout"> @Html.EditorFor(m => m.EndTime )</div>
+									</div>
+							    </div>	
+								 
+								<div class="col-sm-4" style="">
+									<div class="form-group">
+									  <label class="col-md-s1 s_layout control-label">
+										@Html.LabelFor(m => m._Status, new { @class = "col-md-s1 s_layout control-label" })
+									  </label>
+									  <div class="col-md-s2 s_layout">   @Html.DropDownList("_Status", (List<SelectListItem>)ViewBag.StatusType, new { @class = "form-control ecombox" ,@id="_Status" })</div>
+									</div>
+							    </div>	
+								<div class="col-sm-4" style="">
+									<div class="form-group">
+									  <label class="col-md-s1 s_layout control-label">
+										@Html.LabelFor(m => m.Remark, new { @class = "col-md-s1 s_layout control-label" })
+									  </label>
+									  <div class="col-md-s2 s_layout"> @Html.EditorFor(m => m.Remark )</div>
+									</div>
+							    </div>	
+								
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ 

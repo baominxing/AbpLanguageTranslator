@@ -1,0 +1,49 @@
+﻿<div class="content " style="background: white; min-height: 10px">
+    <div class="row" style=" margin-bottom 0px;">
+	
+        <div class="col-lg-12">
+
+            <div class="">
+
+                <div id="collapse" class="panel-collapse collapse in" aria-expanded="true" style="margin-bottom:10px">
+	                  <textarea class="form-control " id="con" style="    height: 250px!important;resize: none;"></textarea>
+	
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+ <script>
+   function AcceptClick(){
+
+   var Type=com_request("Type");
+   var RecordId=$("#SerYearlyPriceId",parent.document).val();
+   var FinaRemark=$("#FinaRemark",parent.document).val();
+   var AttactName=$("#AttactName",parent.document).val();
+   var Content=$("#con").val();
+   var temp = {};
+   temp["Type"]=Type;
+   temp["RecordId"]=RecordId;
+   temp["Content"]=Content;
+   temp["AttactName"]=AttactName;
+   temp["FinaRemark"]=FinaRemark;
+   //alert(AttactName+"  "+FinaRemark)
+   if(Type==8016&&!isData(Content)){
+       msg.info("请填写审批意见！");
+       $(".layui-layer-btn0", parent.document).show();
+   return;
+   }
+    
+   SubTable('service/BumdPriceManage/SubmitPolicy',temp);
+
+
+   }
+   function savesucess(json) {
+   var index = parent.layer.getFrameIndex(window.name);
+   parent.layer.close(index);
+   window.parent.closeandfresh();
+
+
+   }
+ </script>
