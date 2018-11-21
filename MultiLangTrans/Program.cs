@@ -20,9 +20,9 @@ namespace MultiLangTrans
         {
             //先做个测试
 
-            string resourceFilePath = @"D:\works\eprice\Web\Lucky.Admin\App_GlobalResources\LanguageResource.resx";
+            string resourceFilePath = $@"App_GlobalResources\\LanguageResource.resx";
 
-            string directoryPath = @"D:\works\eprice\Web\Lucky.Admin\Areas\Service\Views\" + "SerReport";
+            string directoryPath = @"D:\Workspace\Projects\EPRICE\Lucky.Admin\Areas\Service\Views\SerReport";
             #region 读取所有的资源key
             Dictionary<string, string> resourceKeyValueList = GetResourceKeyValueList(resourceFilePath);
 
@@ -83,7 +83,7 @@ namespace MultiLangTrans
                         if (labelKey.Key != null)
                         {
                             //替换规则
-                            replaceItem = replaceItem.Replace(originalKey, $"@LanguageResource.{labelKey.Key}");
+                            replaceItem = replaceItem.Replace(originalKey, $" @LanguageResource.{labelKey.Key} ");
 
                             Console.WriteLine($"已替换Label{originalKey}为{labelKey}");
                         }

@@ -1,0 +1,86 @@
+postpone
+frozen
+Whether to postpone
+Postpone starting
+Postpone the end of the
+Financial attachments
+Please fill in the extension time
+Operation is successful
+Annual price report
+Application no.
+Price type
+Annual general price
+Ladder price
+Package price
+Annual special price
+The examination and approval node
+Whether the rebate
+The rebate amount
+Please fill in the amount of rebate
+Please first select whether the rebate
+Please choose
+Price information change
+registered
+Submit team
+Business team
+Trade representative
+Whether to deal in medicine or not
+Transport area
+Selection sort
+The delivery
+Zip code
+city
+The phone
+Sales office
+Billing client email
+Terms of payment
+Immediate payment
+Days to pay
+Terms of shipment
+Team type
+Please maintain the new allowance clause details
+Please maintain the product details
+Please maintain the product price details
+Open the ticket
+Please fill in the comments or comments
+Effective start
+Effective end
+Please select the corresponding product
+Business customers
+The user name
+The domain account
+Please select commercial customers first
+Add business personnel
+Business and customer relationships
+To reset your password
+Business people
+Please select commercial customers
+Confirm the reset
+Provincial price approval
+quasi
+new
+increase
+product
+Kind of
+Subordinate to the province
+Apply for reason
+cancel
+Select the item that needs to be deactivated
+Provincial price application
+Apply for provinces
+Apply for personnel
+The approver
+Affected area and sales volume
+The price is not filled in correctly
+The price must be filled in
+Policy coding
+The examination and approval by
+In the examination and approval
+In the new
+The remaining amount
+Look at all
+all
+The latest
+Discount of time
+Number to
+At the beginning

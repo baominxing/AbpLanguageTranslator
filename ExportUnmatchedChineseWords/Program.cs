@@ -19,9 +19,9 @@ namespace ExportUnmatchedChineseWords
         {
             string resourceFilePath = $"App_GlobalResources\\LanguageResource.resx";
 
-            string directoryPath = @"D:\works\eprice\Web\Lucky.Admin\Areas\Service\Views\" + "BumdPriceManage";
+            string directoryPath = @"D:\Workspace\Projects\EPRICE\Lucky.Admin\Areas\Service\Views";
 
-            string unmatchedchinesePhraseListFileName = @"UnmatchedchinesePhraseList.txt";
+            string unmatchedchinesePhraseListFileName = @"Output\\UnmatchedchinesePhraseList.txt";
 
             #region 读取所有的资源key
             Dictionary<string, string> resourceKeyValueList = GetResourceKeyValueList(resourceFilePath);
@@ -29,7 +29,7 @@ namespace ExportUnmatchedChineseWords
             if (resourceKeyValueList.Count == 0)
             {
                 Console.WriteLine("资源文件未包含任何值");
-                return;
+                //return;
             }
             #endregion
 

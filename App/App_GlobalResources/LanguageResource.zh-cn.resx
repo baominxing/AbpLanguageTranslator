@@ -145,6 +145,10 @@
     <value>年度价格</value>
     <comment>年度价格</comment>
   </data>
+  <data name="Label_AnnualPrice1" xml:space="preserve">
+    <value>年度价格</value>
+    <comment>年度价格</comment>
+  </data>
   <data name="Label_AnnualSpecialDealerPriceList" xml:space="preserve">
     <value>年度特殊经销商价格表</value>
     <comment>年度特殊经销商价格表</comment>
@@ -269,7 +273,7 @@
     <value>总额度</value>
     <comment>总额度</comment>
   </data>
-  <data name="Label_CommercialCode" xml:space="preserve">
+  <data name="Label_BusinessCode" xml:space="preserve">
     <value>商业编码</value>
     <comment>商业编码</comment>
   </data>
@@ -669,6 +673,10 @@
     <value>促销价格</value>
     <comment>促销价格</comment>
   </data>
+  <data name="Label_PromotionPrice1" xml:space="preserve">
+    <value>促销价格</value>
+    <comment>促销价格</comment>
+  </data>
   <data name="Label_PromotionPriceCode" xml:space="preserve">
     <value>促销码</value>
     <comment>促销码</comment>
@@ -750,8 +758,8 @@
     <comment>销售折让</comment>
   </data>
   <data name="Label_SalesScale" xml:space="preserve">
-    <value>销售规模(年度/万)</value>
-    <comment>销售规模(年度/万)</comment>
+    <value>销售规模</value>
+    <comment>销售规模</comment>
   </data>
   <data name="Label_SAPCode" xml:space="preserve">
     <value>SAP编码</value>
@@ -877,7 +885,7 @@
     <value>总毛利率保持不变</value>
     <comment>总毛利率保持不变</comment>
   </data>
-  <data name="Label_TotalGrossAfterSenders" xml:space="preserve">
+  <data name="Label_TotalGross1" xml:space="preserve">
     <value>补差后总毛利率</value>
     <comment>补差后总毛利率</comment>
   </data>
@@ -921,12 +929,1888 @@
     <value>政策明细</value>
     <comment>政策明细</comment>
   </data>
-  <data name="Label_IncorrectlyPrice" xml:space="preserve">
+  <data name="Label_AccountPeriod" xml:space="preserve">
+    <value>账期</value>
+    <comment>账期</comment>
+  </data>
+  <data name="Label_Added" xml:space="preserve">
+    <value>新增</value>
+    <comment>新增</comment>
+  </data>
+  <data name="Label_AddNewCustomersPending" xml:space="preserve">
+    <value>新增客户待处理</value>
+    <comment>新增客户待处理</comment>
+  </data>
+  <data name="Label_AddPrice" xml:space="preserve">
+    <value>添加价格</value>
+    <comment>添加价格</comment>
+  </data>
+  <data name="Label_AddPriceInformation" xml:space="preserve">
+    <value>请添加价格信息</value>
+    <comment>请添加价格信息</comment>
+  </data>
+  <data name="Label_AddProducts" xml:space="preserve">
+    <value>添加产品</value>
+    <comment>添加产品</comment>
+  </data>
+  <data name="Label_Address" xml:space="preserve">
+    <value>地址</value>
+    <comment>地址</comment>
+  </data>
+  <data name="Label_AdjustEffectiveDateOfMasterBill" xml:space="preserve">
+    <value>请调整主单的生效日期</value>
+    <comment>请调整主单的生效日期</comment>
+  </data>
+  <data name="Label_AffectedArea" xml:space="preserve">
+    <value>受影响范围</value>
+    <comment>受影响范围</comment>
+  </data>
+  <data name="Label_AffiliatedCompanies" xml:space="preserve">
+    <value>所属公司</value>
+    <comment>所属公司</comment>
+  </data>
+  <data name="Label_AfterMakingUpNetPrice" xml:space="preserve">
+    <value>补差后净价</value>
+    <comment>补差后净价</comment>
+  </data>
+  <data name="Label_AfterReservePrice" xml:space="preserve">
+    <value>补差后底价</value>
+    <comment>补差后底价</comment>
+  </data>
+  <data name="Label_AfterTotalGrossProfit" xml:space="preserve">
+    <value>补后总毛利</value>
+    <comment>补后总毛利</comment>
+  </data>
+  <data name="Label_AlreadyWithOther" xml:space="preserve">
+    <value>已与其它</value>
+    <comment>已与其它</comment>
+  </data>
+  <data name="Label_AnnualDealerPrice" xml:space="preserve">
+    <value>年度经销商价</value>
+    <comment>年度经销商价</comment>
+  </data>
+  <data name="Label_AnnualPriceApproval" xml:space="preserve">
+    <value>年度价格审批</value>
+    <comment>年度价格审批</comment>
+  </data>
+  <data name="Label_Applicant" xml:space="preserve">
+    <value>申请人</value>
+    <comment>申请人</comment>
+  </data>
+  <data name="Label_ApplicationBatchNumber" xml:space="preserve">
+    <value>申请批号</value>
+    <comment>申请批号</comment>
+  </data>
+  <data name="Label_ApplicationNote" xml:space="preserve">
+    <value>申请备注</value>
+    <comment>申请备注</comment>
+  </data>
+  <data name="Label_ApplicationNumber" xml:space="preserve">
+    <value>申请编号</value>
+    <comment>申请编号</comment>
+  </data>
+  <data name="Label_ApplicationPriceType" xml:space="preserve">
+    <value>申请价格类型</value>
+    <comment>申请价格类型</comment>
+  </data>
+  <data name="Label_ApplicationType1" xml:space="preserve">
+    <value>申请单类型</value>
+    <comment>申请单类型</comment>
+  </data>
+  <data name="Label_Approval" xml:space="preserve">
+    <value>审批</value>
+    <comment>审批</comment>
+  </data>
+  <data name="Label_ApprovalRecord" xml:space="preserve">
+    <value>审批记录</value>
+    <comment>审批记录</comment>
+  </data>
+  <data name="Label_ApprovingOfficer" xml:space="preserve">
+    <value>审批人员</value>
+    <comment>审批人员</comment>
+  </data>
+  <data name="Label_ArticleName" xml:space="preserve">
+    <value>条款名称</value>
+    <comment>条款名称</comment>
+  </data>
+  <data name="Label_AssociatedPolicyNumber" xml:space="preserve">
+    <value>关联政策编号</value>
+    <comment>关联政策编号</comment>
+  </data>
+  <data name="Label_Attached" xml:space="preserve">
+    <value>附</value>
+    <comment>附</comment>
+  </data>
+  <data name="Label_AttachmentInformation" xml:space="preserve">
+    <value>附件信息</value>
+    <comment>附件信息</comment>
+  </data>
+  <data name="Label_AttachmentList" xml:space="preserve">
+    <value>附件列表</value>
+    <comment>附件列表</comment>
+  </data>
+  <data name="Label_Bargaining" xml:space="preserve">
+    <value>议价补差</value>
+    <comment>议价补差</comment>
+  </data>
+  <data name="Label_BargainingReasonsAndInfluence" xml:space="preserve">
+    <value>议价原因及影响</value>
+    <comment>议价原因及影响</comment>
+  </data>
+  <data name="Label_BargainingSituationMustBeChosen" xml:space="preserve">
+    <value>沟通议价情况必须选择</value>
+    <comment>沟通议价情况必须选择</comment>
+  </data>
+  <data name="Label_BaselinePriceType" xml:space="preserve">
+    <value>基准价格类型</value>
+    <comment>基准价格类型</comment>
+  </data>
+  <data name="Label_BasePriceAdjustment" xml:space="preserve">
+    <value>基准价调整</value>
+    <comment>基准价调整</comment>
+  </data>
+  <data name="Label_BasicInformation" xml:space="preserve">
+    <value>基本信息</value>
+    <comment>基本信息</comment>
+  </data>
+  <data name="Label_BasicInformationAfterChange" xml:space="preserve">
+    <value>变更后基本信息</value>
+    <comment>变更后基本信息</comment>
+  </data>
+  <data name="Label_BasicInformationBeforeChange" xml:space="preserve">
+    <value>变更前基本信息</value>
+    <comment>变更前基本信息</comment>
+  </data>
+  <data name="Label_BasicInformationToBeProcessed" xml:space="preserve">
+    <value>基本信息待处理</value>
+    <comment>基本信息待处理</comment>
+  </data>
+  <data name="Label_BasicInformationVersionCode" xml:space="preserve">
+    <value>基本信息版本编码</value>
+    <comment>基本信息版本编码</comment>
+  </data>
+  <data name="Label_BasicInformationVersionNumber" xml:space="preserve">
+    <value>基本信息版本号</value>
+    <comment>基本信息版本号</comment>
+  </data>
+  <data name="Label_BasicInformationVersionNumber1" xml:space="preserve">
+    <value>基本信息版本编号</value>
+    <comment>基本信息版本编号</comment>
+  </data>
+  <data name="Label_BenchmarkPrice" xml:space="preserve">
+    <value>基准价</value>
+    <comment>基准价</comment>
+  </data>
+  <data name="Label_Bidding" xml:space="preserve">
+    <value>招标</value>
+    <comment>招标</comment>
+  </data>
+  <data name="Label_BillingEndTime" xml:space="preserve">
+    <value>结算结束时间</value>
+    <comment>结算结束时间</comment>
+  </data>
+  <data name="Label_BillingStartTime" xml:space="preserve">
+    <value>结算开始时间</value>
+    <comment>结算开始时间</comment>
+  </data>
+  <data name="Label_Business" xml:space="preserve">
+    <value>商业</value>
+    <comment>商业</comment>
+  </data>
+  <data name="Label_BusinessAcronym" xml:space="preserve">
+    <value>商业简称</value>
+    <comment>商业简称</comment>
+  </data>
+  <data name="Label_BusinessCompanyAbbreviation" xml:space="preserve">
+    <value>商业公司简称</value>
+    <comment>商业公司简称</comment>
+  </data>
+  <data name="Label_BusinessCompanyAccount" xml:space="preserve">
+    <value>商业公司账户</value>
+    <comment>商业公司账户</comment>
+  </data>
+  <data name="Label_BusinessCompanySales" xml:space="preserve">
+    <value>商业公司销售额</value>
+    <comment>商业公司销售额</comment>
+  </data>
+  <data name="Label_BusinessName" xml:space="preserve">
+    <value>商业名称</value>
+    <comment>商业名称</comment>
+  </data>
+  <data name="Label_Cash" xml:space="preserve">
+    <value>现金</value>
+    <comment>现金</comment>
+  </data>
+  <data name="Label_Cash1" xml:space="preserve">
+    <value>现款</value>
+    <comment>现款</comment>
+  </data>
+  <data name="Label_CashAccount" xml:space="preserve">
+    <value>现款账户</value>
+    <comment>现款账户</comment>
+  </data>
+  <data name="Label_CashbackRebate" xml:space="preserve">
+    <value>回款返利</value>
+    <comment>回款返利</comment>
+  </data>
+  <data name="Label_CashClient" xml:space="preserve">
+    <value>现款客户</value>
+    <comment>现款客户</comment>
+  </data>
+  <data name="Label_Change" xml:space="preserve">
+    <value>变更</value>
+    <comment>变更</comment>
+  </data>
+  <data name="Label_ChangedGrossMargin" xml:space="preserve">
+    <value>变更后票面毛利</value>
+    <comment>变更后票面毛利</comment>
+  </data>
+  <data name="Label_ChangedInvoicePrice" xml:space="preserve">
+    <value>变更后开票价格</value>
+    <comment>变更后开票价格</comment>
+  </data>
+  <data name="Label_ChangePersonsName" xml:space="preserve">
+    <value>变更人姓名</value>
+    <comment>变更人姓名</comment>
+  </data>
+  <data name="Label_ChangeReasonAndRemarks" xml:space="preserve">
+    <value>变更原因及备注</value>
+    <comment>变更原因及备注</comment>
+  </data>
+  <data name="Label_ChangeRequestForm" xml:space="preserve">
+    <value>变更申请单</value>
+    <comment>变更申请单</comment>
+  </data>
+  <data name="Label_ChangeTime" xml:space="preserve">
+    <value>变更时间</value>
+    <comment>变更时间</comment>
+  </data>
+  <data name="Label_Choose" xml:space="preserve">
+    <value>请选择</value>
+    <comment>请选择</comment>
+  </data>
+  <data name="Label_ChooseBusiness" xml:space="preserve">
+    <value>选择商业</value>
+    <comment>选择商业</comment>
+  </data>
+  <data name="Label_ClauseExpirationTime" xml:space="preserve">
+    <value>条款失效时间</value>
+    <comment>条款失效时间</comment>
+  </data>
+  <data name="Label_Client" xml:space="preserve">
+    <value>客户</value>
+    <comment>客户</comment>
+  </data>
+  <data name="Label_ClientsName" xml:space="preserve">
+    <value>客户名称</value>
+    <comment>客户名称</comment>
+  </data>
+  <data name="Label_Code" xml:space="preserve">
+    <value>代码</value>
+    <comment>代码</comment>
+  </data>
+  <data name="Label_CommercialNumber" xml:space="preserve">
+    <value>商业编号</value>
+    <comment>商业编号</comment>
+  </data>
+  <data name="Label_CommercialShipmentStatus" xml:space="preserve">
+    <value>商业发货状态</value>
+    <comment>商业发货状态</comment>
+  </data>
+  <data name="Label_CommunicationNegotiation" xml:space="preserve">
+    <value>沟通议价情况</value>
+    <comment>沟通议价情况</comment>
+  </data>
+  <data name="Label_ComplyWithDiscountRules" xml:space="preserve">
+    <value>符合折扣规定</value>
+    <comment>符合折扣规定</comment>
+  </data>
+  <data name="Label_Confirm" xml:space="preserve">
+    <value>确认</value>
+    <comment>确认</comment>
+  </data>
+  <data name="Label_ConfirmDeletion" xml:space="preserve">
+    <value>确认删除</value>
+    <comment>确认删除</comment>
+  </data>
+  <data name="Label_Console" xml:space="preserve">
+    <value>控制台</value>
+    <comment>控制台</comment>
+  </data>
+  <data name="Label_ContactName" xml:space="preserve">
+    <value>联系人姓名</value>
+    <comment>联系人姓名</comment>
+  </data>
+  <data name="Label_ContactNumber" xml:space="preserve">
+    <value>联系人电话</value>
+    <comment>联系人电话</comment>
+  </data>
+  <data name="Label_ContactWithOther" xml:space="preserve">
+    <value>请与其它</value>
+    <comment>请与其它</comment>
+  </data>
+  <data name="Label_ContractTextPrinting" xml:space="preserve">
+    <value>合同文本打印</value>
+    <comment>合同文本打印</comment>
+  </data>
+  <data name="Label_CoverageArea" xml:space="preserve">
+    <value>覆盖区域</value>
+    <comment>覆盖区域</comment>
+  </data>
+  <data name="Label_Created" xml:space="preserve">
+    <value>创建中</value>
+    <comment>创建中</comment>
+  </data>
+  <data name="Label_CreationDate" xml:space="preserve">
+    <value>创建日期</value>
+    <comment>创建日期</comment>
+  </data>
+  <data name="Label_CreditAccount" xml:space="preserve">
+    <value>赊销账户</value>
+    <comment>赊销账户</comment>
+  </data>
+  <data name="Label_CreditCategoryRequired" xml:space="preserve">
+    <value>资信类别必填</value>
+    <comment>资信类别必填</comment>
+  </data>
+  <data name="Label_CreditCustomers" xml:space="preserve">
+    <value>赊销客户</value>
+    <comment>赊销客户</comment>
+  </data>
+  <data name="Label_CreditDays" xml:space="preserve">
+    <value>信用天数</value>
+    <comment>信用天数</comment>
+  </data>
+  <data name="Label_Credits" xml:space="preserve">
+    <value>信用額度</value>
+    <comment>信用額度</comment>
+  </data>
+  <data name="Label_CreditSales" xml:space="preserve">
+    <value>赊销</value>
+    <comment>赊销</comment>
+  </data>
+  <data name="Label_CustomerAndPriceBasicInformation" xml:space="preserve">
+    <value>客户及价格基本信息</value>
+    <comment>客户及价格基本信息</comment>
+  </data>
+  <data name="Label_CustomerApplicationForm" xml:space="preserve">
+    <value>客户申请单</value>
+    <comment>客户申请单</comment>
+  </data>
+  <data name="Label_CustomerApplicationNotes" xml:space="preserve">
+    <value>客户申请备注</value>
+    <comment>客户申请备注</comment>
+  </data>
+  <data name="Label_CustomerBasicInformation" xml:space="preserve">
+    <value>客户基本信息</value>
+    <comment>客户基本信息</comment>
+  </data>
+  <data name="Label_CustomerCode" xml:space="preserve">
+    <value>客户编码</value>
+    <comment>客户编码</comment>
+  </data>
+  <data name="Label_CustomerInformation" xml:space="preserve">
+    <value>客户信息</value>
+    <comment>客户信息</comment>
+  </data>
+  <data name="Label_CustomerNumber" xml:space="preserve">
+    <value>客户编号</value>
+    <comment>客户编号</comment>
+  </data>
+  <data name="Label_CustomerPending" xml:space="preserve">
+    <value>客户待处理</value>
+    <comment>客户待处理</comment>
+  </data>
+  <data name="Label_DateOfApplication" xml:space="preserve">
+    <value>申请日期</value>
+    <comment>申请日期</comment>
+  </data>
+  <data name="Label_DateRange" xml:space="preserve">
+    <value>日期区间</value>
+    <comment>日期区间</comment>
+  </data>
+  <data name="Label_Day" xml:space="preserve">
+    <value>日</value>
+    <comment>日</comment>
+  </data>
+  <data name="Label_Day1" xml:space="preserve">
+    <value>天</value>
+    <comment>天</comment>
+  </data>
+  <data name="Label_DealerCode" xml:space="preserve">
+    <value>经销商编码</value>
+    <comment>经销商编码</comment>
+  </data>
+  <data name="Label_DealerId" xml:space="preserve">
+    <value>经销商编号</value>
+    <comment>经销商编号</comment>
+  </data>
+  <data name="Label_DealerName" xml:space="preserve">
+    <value>经销商名称</value>
+    <comment>经销商名称</comment>
+  </data>
+  <data name="Label_DealWith" xml:space="preserve">
+    <value>处理</value>
+    <comment>处理</comment>
+  </data>
+  <data name="Label_Delivery" xml:space="preserve">
+    <value>交货</value>
+    <comment>交货</comment>
+  </data>
+  <data name="Label_DeliveryContactName1" xml:space="preserve">
+    <value>交货联系人姓名</value>
+    <comment>交货联系人姓名</comment>
+  </data>
+  <data name="Label_DeliveryContactPhone1" xml:space="preserve">
+    <value>交货联系人电话</value>
+    <comment>交货联系人电话</comment>
+  </data>
+  <data name="Label_DeliveryDate" xml:space="preserve">
+    <value>交货日期</value>
+    <comment>交货日期</comment>
+  </data>
+  <data name="Label_DeliveryRecord" xml:space="preserve">
+    <value>发货记录</value>
+    <comment>发货记录</comment>
+  </data>
+  <data name="Label_Details" xml:space="preserve">
+    <value>明细</value>
+    <comment>明细</comment>
+  </data>
+  <data name="Label_Difference" xml:space="preserve">
+    <value>差额</value>
+    <comment>差额</comment>
+  </data>
+  <data name="Label_DirectHospital" xml:space="preserve">
+    <value>直供医院</value>
+    <comment>直供医院</comment>
+  </data>
+  <data name="Label_DiscountInformation" xml:space="preserve">
+    <value>折让信息</value>
+    <comment>折让信息</comment>
+  </data>
+  <data name="Label_DiscountPeriodRequirements" xml:space="preserve">
+    <value>折扣期限要求</value>
+    <comment>折扣期限要求</comment>
+  </data>
+  <data name="Label_DiscountTerms1" xml:space="preserve">
+    <value>折让条款</value>
+    <comment>折让条款</comment>
+  </data>
+  <data name="Label_DiscountTermsInformation" xml:space="preserve">
+    <value>折让条款信息</value>
+    <comment>折让条款信息</comment>
+  </data>
+  <data name="Label_DiscountTermsNumber" xml:space="preserve">
+    <value>折让条款号</value>
+    <comment>折让条款号</comment>
+  </data>
+  <data name="Label_DiscountTermsSelection" xml:space="preserve">
+    <value>折让条款选择</value>
+    <comment>折让条款选择</comment>
+  </data>
+  <data name="Label_DiscountType" xml:space="preserve">
+    <value>折让类型</value>
+    <comment>折让类型</comment>
+  </data>
+  <data name="Label_Display" xml:space="preserve">
+    <value>展示</value>
+    <comment>展示</comment>
+  </data>
+  <data name="Label_DocumentIsInvalid" xml:space="preserve">
+    <value>该单据无效</value>
+    <comment>该单据无效</comment>
+  </data>
+  <data name="Label_DocumentNumber" xml:space="preserve">
+    <value>单据编号</value>
+    <comment>单据编号</comment>
+  </data>
+  <data name="Label_Documents" xml:space="preserve">
+    <value>单据</value>
+    <comment>单据</comment>
+  </data>
+  <data name="Label_DocumentType" xml:space="preserve">
+    <value>单据类型</value>
+    <comment>单据类型</comment>
+  </data>
+  <data name="Label_Edit" xml:space="preserve">
+    <value>编辑</value>
+    <comment>编辑</comment>
+  </data>
+  <data name="Label_Effective" xml:space="preserve">
+    <value>有效</value>
+    <comment>有效</comment>
+  </data>
+  <data name="Label_EffectiveDate" xml:space="preserve">
+    <value>生效日期</value>
+    <comment>生效日期</comment>
+  </data>
+  <data name="Label_EffectiveDateOfPolicy" xml:space="preserve">
+    <value>政策生效日期</value>
+    <comment>政策生效日期</comment>
+  </data>
+  <data name="Label_EffectiveEndTime" xml:space="preserve">
+    <value>生效结束时间</value>
+    <comment>生效结束时间</comment>
+  </data>
+  <data name="Label_EffectiveStartTime" xml:space="preserve">
+    <value>生效开始时间</value>
+    <comment>生效开始时间</comment>
+  </data>
+  <data name="Label_End" xml:space="preserve">
+    <value>结束</value>
+    <comment>结束</comment>
+  </data>
+  <data name="Label_EndCustomer" xml:space="preserve">
+    <value>终端客户</value>
+    <comment>终端客户</comment>
+  </data>
+  <data name="Label_EndCustomerName" xml:space="preserve">
+    <value>终端客户名称</value>
+    <comment>终端客户名称</comment>
+  </data>
+  <data name="Label_EndCustomerNumber" xml:space="preserve">
+    <value>终端客户编号</value>
+    <comment>终端客户编号</comment>
+  </data>
+  <data name="Label_EndTimeMustBeGreaterThanStartTime" xml:space="preserve">
+    <value>结束时间必须大于开始时间</value>
+    <comment>结束时间必须大于开始时间</comment>
+  </data>
+  <data name="Label_EstimatedPurchaseAmount" xml:space="preserve">
+    <value>进货额预计</value>
+    <comment>进货额预计</comment>
+  </data>
+  <data name="Label_EstimatedTotalPurchases" xml:space="preserve">
+    <value>进货总额预计</value>
+    <comment>进货总额预计</comment>
+  </data>
+  <data name="Label_ExcludingBasePriceAdjustment" xml:space="preserve">
+    <value>不含基准价调整</value>
+    <comment>不含基准价调整</comment>
+  </data>
+  <data name="Label_ExpirationDate" xml:space="preserve">
+    <value>失效日期</value>
+    <comment>失效日期</comment>
+  </data>
+  <data name="Label_ExpiryDateOrSelectOtherTerms" xml:space="preserve">
+    <value>失效日期或选择其他条款</value>
+    <comment>失效日期或选择其他条款</comment>
+  </data>
+  <data name="Label_Export" xml:space="preserve">
+    <value>导出</value>
+    <comment>导出</comment>
+  </data>
+  <data name="Label_Extended" xml:space="preserve">
+    <value>扩展</value>
+    <comment>扩展</comment>
+  </data>
+  <data name="Label_FailedToExport" xml:space="preserve">
+    <value>导出失败</value>
+    <comment>导出失败</comment>
+  </data>
+  <data name="Label_FailedToSave" xml:space="preserve">
+    <value>保存失败</value>
+    <comment>保存失败</comment>
+  </data>
+  <data name="Label_FieldIsRequired" xml:space="preserve">
+    <value>字段是必需的</value>
+    <comment>字段是必需的</comment>
+  </data>
+  <data name="Label_Fields" xml:space="preserve">
+    <value>字段</value>
+    <comment>字段</comment>
+  </data>
+  <data name="Label_FillInAndSaveCreditCategory" xml:space="preserve">
+    <value>请填写并保存资信类别</value>
+    <comment>请填写并保存资信类别</comment>
+  </data>
+  <data name="Label_FillInApprovalComments" xml:space="preserve">
+    <value>请填写审批意见</value>
+    <comment>请填写审批意见</comment>
+  </data>
+  <data name="Label_FillInCorrectAmount" xml:space="preserve">
+    <value>请正确填写数量</value>
+    <comment>请正确填写数量</comment>
+  </data>
+  <data name="Label_FillInDiscountStartDate" xml:space="preserve">
+    <value>请填写折让开始日期</value>
+    <comment>请填写折让开始日期</comment>
+  </data>
+  <data name="Label_FillInEndDateOfDiscount" xml:space="preserve">
+    <value>请填写折让结束日期</value>
+    <comment>请填写折让结束日期</comment>
+  </data>
+  <data name="Label_FillInGrossProfitRateAfterPriceReduction" xml:space="preserve">
+    <value>请填写降价后毛利率</value>
+    <comment>请填写降价后毛利率</comment>
+  </data>
+  <data name="Label_FillInPriceReduction" xml:space="preserve">
+    <value>请填写降价幅度</value>
+    <comment>请填写降价幅度</comment>
+  </data>
+  <data name="Label_FillInUrgentReasons" xml:space="preserve">
+    <value>请填写紧急原因</value>
+    <comment>请填写紧急原因</comment>
+  </data>
+  <data name="Label_FillOut" xml:space="preserve">
+    <value>请填写</value>
+    <comment>请填写</comment>
+  </data>
+  <data name="Label_FinalAmountOfCompensation" xml:space="preserve">
+    <value>最终补差金额</value>
+    <comment>最终补差金额</comment>
+  </data>
+  <data name="Label_FinalApprover" xml:space="preserve">
+    <value>最终批准人</value>
+    <comment>最终批准人</comment>
+  </data>
+  <data name="Label_FinancialApproval" xml:space="preserve">
+    <value>财务审批</value>
+    <comment>财务审批</comment>
+  </data>
+  <data name="Label_FirstClassBusiness" xml:space="preserve">
+    <value>一级商业</value>
+    <comment>一级商业</comment>
+  </data>
+  <data name="Label_FollowUpPlan" xml:space="preserve">
+    <value>后续计划</value>
+    <comment>后续计划</comment>
+  </data>
+  <data name="Label_Freeze" xml:space="preserve">
+    <value>冻结</value>
+    <comment>冻结</comment>
+  </data>
+  <data name="Label_Freight" xml:space="preserve">
+    <value>运费</value>
+    <comment>运费</comment>
+  </data>
+  <data name="Label_FullNameOfCommercialCompany" xml:space="preserve">
+    <value>商业公司全称</value>
+    <comment>商业公司全称</comment>
+  </data>
+  <data name="Label_GeneralInformation" xml:space="preserve">
+    <value>总汇信息</value>
+    <comment>总汇信息</comment>
+  </data>
+  <data name="Label_GeneralManagerOpinion" xml:space="preserve">
+    <value>总经理意见</value>
+    <comment>总经理意见</comment>
+  </data>
+  <data name="Label_GrossMargin1" xml:space="preserve">
+    <value>票面毛利</value>
+    <comment>票面毛利</comment>
+  </data>
+  <data name="Label_GrossMarginBeforeChange" xml:space="preserve">
+    <value>变更前票面毛利</value>
+    <comment>变更前票面毛利</comment>
+  </data>
+  <data name="Label_GrossProfit1" xml:space="preserve">
+    <value>总毛利</value>
+    <comment>总毛利</comment>
+  </data>
+  <data name="Label_GrossProfitAfterPriceCut" xml:space="preserve">
+    <value>降价后毛利率</value>
+    <comment>降价后毛利率</comment>
+  </data>
+  <data name="Label_GrossProfitRemainsUnchanged" xml:space="preserve">
+    <value>总毛利保持不变</value>
+    <comment>总毛利保持不变</comment>
+  </data>
+  <data name="Label_HangingNet" xml:space="preserve">
+    <value>挂网</value>
+    <comment>挂网</comment>
+  </data>
+  <data name="Label_HeadOfFinanceDepartmentApproval" xml:space="preserve">
+    <value>财务部负责人审批</value>
+    <comment>财务部负责人审批</comment>
+  </data>
+  <data name="Label_HeadOfQualityDepartmentApproval" xml:space="preserve">
+    <value>质量部负责人审批</value>
+    <comment>质量部负责人审批</comment>
+  </data>
+  <data name="Label_Home" xml:space="preserve">
+    <value>首页</value>
+    <comment>首页</comment>
+  </data>
+  <data name="Label_Hospital" xml:space="preserve">
+    <value>医院</value>
+    <comment>医院</comment>
+  </data>
+  <data name="Label_HospitalName" xml:space="preserve">
+    <value>医院名称</value>
+    <comment>医院名称</comment>
+  </data>
+  <data name="Label_ImpactOnOriginalLayout" xml:space="preserve">
+    <value>对原布局的影响</value>
+    <comment>对原布局的影响</comment>
+  </data>
+  <data name="Label_InformationChangesPending" xml:space="preserve">
+    <value>信息变更待处理</value>
+    <comment>信息变更待处理</comment>
+  </data>
+  <data name="Label_InitialApplication" xml:space="preserve">
+    <value>首次申请</value>
+    <comment>首次申请</comment>
+  </data>
+  <data name="Label_InterProvincialTransfer" xml:space="preserve">
+    <value>省间调拨</value>
+    <comment>省间调拨</comment>
+  </data>
+  <data name="Label_IntraBusiness" xml:space="preserve">
+    <value>同系内商业</value>
+    <comment>同系内商业</comment>
+  </data>
+  <data name="Label_InventoryCompensation" xml:space="preserve">
+    <value>存货补差</value>
+    <comment>存货补差</comment>
+  </data>
+  <data name="Label_InvoiceAmount" xml:space="preserve">
+    <value>开票金额</value>
+    <comment>开票金额</comment>
+  </data>
+  <data name="Label_InvoiceNumber" xml:space="preserve">
+    <value>发票编号</value>
+    <comment>发票编号</comment>
+  </data>
+  <data name="Label_IsItUrgent" xml:space="preserve">
+    <value>是否紧急</value>
+    <comment>是否紧急</comment>
+  </data>
+  <data name="Label_ItemNumber" xml:space="preserve">
+    <value>物料号</value>
+    <comment>物料号</comment>
+  </data>
+  <data name="Label_MailContactPhone1" xml:space="preserve">
+    <value>邮寄联系人电话</value>
+    <comment>邮寄联系人电话</comment>
+  </data>
+  <data name="Label_Mailing" xml:space="preserve">
+    <value>邮寄</value>
+    <comment>邮寄</comment>
+  </data>
+  <data name="Label_MailingAddress" xml:space="preserve">
+    <value>邮寄地址</value>
+    <comment>邮寄地址</comment>
+  </data>
+  <data name="Label_MailingContacts" xml:space="preserve">
+    <value>邮寄联系人</value>
+    <comment>邮寄联系人</comment>
+  </data>
+  <data name="Label_MainBody" xml:space="preserve">
+    <value>主体</value>
+    <comment>主体</comment>
+  </data>
+  <data name="Label_MaintenanceFee" xml:space="preserve">
+    <value>维保费</value>
+    <comment>维保费</comment>
+  </data>
+  <data name="Label_MainTicket" xml:space="preserve">
+    <value>主单</value>
+    <comment>主单</comment>
+  </data>
+  <data name="Label_MakeUpAfterProfitMargin" xml:space="preserve">
+    <value>补后票毛利</value>
+    <comment>补后票毛利</comment>
+  </data>
+  <data name="Label_MasterDataMaintenance" xml:space="preserve">
+    <value>主数据维护</value>
+    <comment>主数据维护</comment>
+  </data>
+  <data name="Label_MasterDataProcessing" xml:space="preserve">
+    <value>主数据处理</value>
+    <comment>主数据处理</comment>
+  </data>
+  <data name="Label_MaterialName" xml:space="preserve">
+    <value>物料名称</value>
+    <comment>物料名称</comment>
+  </data>
+  <data name="Label_MilitaryDistrictAssignment" xml:space="preserve">
+    <value>军区调拨</value>
+    <comment>军区调拨</comment>
+  </data>
+  <data name="Label_MilitaryNegotiation" xml:space="preserve">
+    <value>军区议价</value>
+    <comment>军区议价</comment>
+  </data>
+  <data name="Label_MilitaryRegion" xml:space="preserve">
+    <value>军区</value>
+    <comment>军区</comment>
+  </data>
+  <data name="Label_MilitaryStandard" xml:space="preserve">
+    <value>全军标</value>
+    <comment>全军标</comment>
+  </data>
+  <data name="Label_MilitarySupplyStation" xml:space="preserve">
+    <value>销军供站</value>
+    <comment>销军供站</comment>
+  </data>
+  <data name="Label_ModificationEndTimeMustBeLessThanPreviouslyCompletedEndTime" xml:space="preserve">
+    <value>修改结束时间必须小于之前填写的结束时间</value>
+    <comment>修改结束时间必须小于之前填写的结束时间</comment>
+  </data>
+  <data name="Label_Month" xml:space="preserve">
+    <value>月</value>
+    <comment>月</comment>
+  </data>
+  <data name="Label_MonthInterval" xml:space="preserve">
+    <value>月份区间</value>
+    <comment>月份区间</comment>
+  </data>
+  <data name="Label_More" xml:space="preserve">
+    <value>更多</value>
+    <comment>更多</comment>
+  </data>
+  <data name="Label_MustBeAMaximumLengthOf" xml:space="preserve">
+    <value>必须是最大长度为</value>
+    <comment>必须是最大长度为</comment>
+  </data>
+  <data name="Label_MustBeANumber" xml:space="preserve">
+    <value>必须是一个数字</value>
+    <comment>必须是一个数字</comment>
+  </data>
+  <data name="Label_MustBeDate" xml:space="preserve">
+    <value>必须是日期</value>
+    <comment>必须是日期</comment>
+  </data>
+  <data name="Label_NeedToNote" xml:space="preserve">
+    <value>需备注</value>
+    <comment>需备注</comment>
+  </data>
+  <data name="Label_NegotiatedAfterBidPrice" xml:space="preserve">
+    <value>议价后中标价实价</value>
+    <comment>议价后中标价实价</comment>
+  </data>
+  <data name="Label_NetPrice" xml:space="preserve">
+    <value>净价</value>
+    <comment>净价</comment>
+  </data>
+  <data name="Label_NewBasePrice" xml:space="preserve">
+    <value>新基准价</value>
+    <comment>新基准价</comment>
+  </data>
+  <data name="Label_NewBasePriceType" xml:space="preserve">
+    <value>新基准价类型</value>
+    <comment>新基准价类型</comment>
+  </data>
+  <data name="Label_NewBusiness" xml:space="preserve">
+    <value>新增商业</value>
+    <comment>新增商业</comment>
+  </data>
+  <data name="Label_NewCommercialFaceGrossMargin" xml:space="preserve">
+    <value>新商业票面毛利率</value>
+    <comment>新商业票面毛利率</comment>
+  </data>
+  <data name="Label_NewCustomerApprovalForm" xml:space="preserve">
+    <value>新增客户审批表</value>
+    <comment>新增客户审批表</comment>
+  </data>
+  <data name="Label_NewFare" xml:space="preserve">
+    <value>新开票价</value>
+    <comment>新开票价</comment>
+  </data>
+  <data name="Label_NewGrossBusinessGrossMargin" xml:space="preserve">
+    <value>新商业总毛利率</value>
+    <comment>新商业总毛利率</comment>
+  </data>
+  <data name="Label_NewHospitalDevelopment" xml:space="preserve">
+    <value>新院开发</value>
+    <comment>新院开发</comment>
+  </data>
+  <data name="Label_NewProduct" xml:space="preserve">
+    <value>新增产品</value>
+    <comment>新增产品</comment>
+  </data>
+  <data name="Label_NewReason" xml:space="preserve">
+    <value>新增的原因</value>
+    <comment>新增的原因</comment>
+  </data>
+  <data name="Label_NoCrossYearApplicationAllowed" xml:space="preserve">
+    <value>不允许跨年申请</value>
+    <comment>不允许跨年申请</comment>
+  </data>
+  <data name="Label_NoData" xml:space="preserve">
+    <value>暂无数据</value>
+    <comment>暂无数据</comment>
+  </data>
+  <data name="Label_NoHistoryData" xml:space="preserve">
+    <value>没有取到历史数据</value>
+    <comment>没有取到历史数据</comment>
+  </data>
+  <data name="Label_NonUrgent" xml:space="preserve">
+    <value>非紧急</value>
+    <comment>非紧急</comment>
+  </data>
+  <data name="Label_Normal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="Label_Number1" xml:space="preserve">
+    <value>号</value>
+    <comment>号</comment>
+  </data>
+  <data name="Label_Numbering" xml:space="preserve">
+    <value>编号</value>
+    <comment>编号</comment>
+  </data>
+  <data name="Label_OldPriceVersion" xml:space="preserve">
+    <value>旧价格版本</value>
+    <comment>旧价格版本</comment>
+  </data>
+  <data name="Label_OldRebatePoints" xml:space="preserve">
+    <value>旧回款返利点数</value>
+    <comment>旧回款返利点数</comment>
+  </data>
+  <data name="Label_OldTicketGrossMargin" xml:space="preserve">
+    <value>旧票面毛利</value>
+    <comment>旧票面毛利</comment>
+  </data>
+  <data name="Label_OneTimeSpecialOffer" xml:space="preserve">
+    <value>一次性特价</value>
+    <comment>一次性特价</comment>
+  </data>
+  <data name="Label_Open" xml:space="preserve">
+    <value>开启</value>
+    <comment>开启</comment>
+  </data>
+  <data name="Label_Operating" xml:space="preserve">
+    <value>操作</value>
+    <comment>操作</comment>
+  </data>
+  <data name="Label_OrderApplication" xml:space="preserve">
+    <value>订单申请</value>
+    <comment>订单申请</comment>
+  </data>
+  <data name="Label_OrderCode" xml:space="preserve">
+    <value>订单编码</value>
+    <comment>订单编码</comment>
+  </data>
+  <data name="Label_OrderContactName1" xml:space="preserve">
+    <value>订单联系人姓名</value>
+    <comment>订单联系人姓名</comment>
+  </data>
+  <data name="Label_OrderContactPhone1" xml:space="preserve">
+    <value>订单联系人电话</value>
+    <comment>订单联系人电话</comment>
+  </data>
+  <data name="Label_OrderDate" xml:space="preserve">
+    <value>订单日期</value>
+    <comment>订单日期</comment>
+  </data>
+  <data name="Label_OrderLineItemAmount" xml:space="preserve">
+    <value>订单行项目金额</value>
+    <comment>订单行项目金额</comment>
+  </data>
+  <data name="Label_OrderNumber" xml:space="preserve">
+    <value>订单号</value>
+    <comment>订单号</comment>
+  </data>
+  <data name="Label_Orders" xml:space="preserve">
+    <value>订单</value>
+    <comment>订单</comment>
+  </data>
+  <data name="Label_Other" xml:space="preserve">
+    <value>其他</value>
+    <comment>其他</comment>
+  </data>
+  <data name="Label_OutsideProvince" xml:space="preserve">
+    <value>省外</value>
+    <comment>省外</comment>
+  </data>
+  <data name="Label_PaymentOrderNumber" xml:space="preserve">
+    <value>付款单编号</value>
+    <comment>付款单编号</comment>
+  </data>
+  <data name="Label_PaymentType" xml:space="preserve">
+    <value>付款类型</value>
+    <comment>付款类型</comment>
+  </data>
+  <data name="Label_Period" xml:space="preserve">
+    <value>款期</value>
+    <comment>款期</comment>
+  </data>
+  <data name="Label_PolicyApproval" xml:space="preserve">
+    <value>政策审批</value>
+    <comment>政策审批</comment>
+  </data>
+  <data name="Label_PolicyChoice" xml:space="preserve">
+    <value>政策选择</value>
+    <comment>政策选择</comment>
+  </data>
+  <data name="Label_PolicyDetails1" xml:space="preserve">
+    <value>政策详情</value>
+    <comment>政策详情</comment>
+  </data>
+  <data name="Label_PolicyEffectiveTime" xml:space="preserve">
+    <value>政策生效时间</value>
+    <comment>政策生效时间</comment>
+  </data>
+  <data name="Label_PolicyEndTime" xml:space="preserve">
+    <value>政策结束时间</value>
+    <comment>政策结束时间</comment>
+  </data>
+  <data name="Label_PolicyExpirationDate" xml:space="preserve">
+    <value>政策失效日期</value>
+    <comment>政策失效日期</comment>
+  </data>
+  <data name="Label_PolicyExpirationTime" xml:space="preserve">
+    <value>政策失效时间</value>
+    <comment>政策失效时间</comment>
+  </data>
+  <data name="Label_PolicyManagementApproval" xml:space="preserve">
+    <value>政策管理审批</value>
+    <comment>政策管理审批</comment>
+  </data>
+  <data name="Label_PolicyName" xml:space="preserve">
+    <value>政策名称</value>
+    <comment>政策名称</comment>
+  </data>
+  <data name="Label_PolicyTerms" xml:space="preserve">
+    <value>政策条款</value>
+    <comment>政策条款</comment>
+  </data>
+  <data name="Label_PreChangeBillingPrice" xml:space="preserve">
+    <value>变更前开票价格</value>
+    <comment>变更前开票价格</comment>
+  </data>
+  <data name="Label_Price" xml:space="preserve">
+    <value>价格</value>
+    <comment>价格</comment>
+  </data>
+  <data name="Label_PriceChangePending" xml:space="preserve">
+    <value>价格变更待处理</value>
+    <comment>价格变更待处理</comment>
+  </data>
+  <data name="Label_PriceComparison" xml:space="preserve">
+    <value>价格对比</value>
+    <comment>价格对比</comment>
+  </data>
+  <data name="Label_PriceInformation" xml:space="preserve">
+    <value>价格信息</value>
+    <comment>价格信息</comment>
+  </data>
+  <data name="Label_PriceList" xml:space="preserve">
+    <value>价格列表</value>
+    <comment>价格列表</comment>
+  </data>
+  <data name="Label_PriceVersion" xml:space="preserve">
+    <value>价格版本</value>
+    <comment>价格版本</comment>
+  </data>
+  <data name="Label_PriceVersionNumber1" xml:space="preserve">
+    <value>价格版本号</value>
+    <comment>价格版本号</comment>
+  </data>
+  <data name="Label_ProcessingDate" xml:space="preserve">
+    <value>处理日期</value>
+    <comment>处理日期</comment>
+  </data>
+  <data name="Label_ProductInformation" xml:space="preserve">
+    <value>产品信息</value>
+    <comment>产品信息</comment>
+  </data>
+  <data name="Label_ProductList" xml:space="preserve">
+    <value>产品列表</value>
+    <comment>产品列表</comment>
+  </data>
+  <data name="Label_ProductName" xml:space="preserve">
+    <value>产品名称</value>
+    <comment>产品名称</comment>
+  </data>
+  <data name="Label_ProductNumber" xml:space="preserve">
+    <value>产品编号</value>
+    <comment>产品编号</comment>
+  </data>
+  <data name="Label_PromotionalProducts" xml:space="preserve">
+    <value>促销产品</value>
+    <comment>促销产品</comment>
+  </data>
+  <data name="Label_PromotionCodeInformation" xml:space="preserve">
+    <value>促销码信息</value>
+    <comment>促销码信息</comment>
+  </data>
+  <data name="Label_PromotionCodeRelatedProducts" xml:space="preserve">
+    <value>促销码相关产品</value>
+    <comment>促销码相关产品</comment>
+  </data>
+  <data name="Label_PromotionPriceApproval" xml:space="preserve">
+    <value>促销价格审批</value>
+    <comment>促销价格审批</comment>
+  </data>
+  <data name="Label_ProposedNewCustomerName" xml:space="preserve">
+    <value>拟新增客户全称</value>
+    <comment>拟新增客户全称</comment>
+  </data>
+  <data name="Label_ProposedNewSpecies" xml:space="preserve">
+    <value>拟新增品种</value>
+    <comment>拟新增品种</comment>
+  </data>
+  <data name="Label_Province" xml:space="preserve">
+    <value>省内</value>
+    <comment>省内</comment>
+  </data>
+  <data name="Label_ProvincialUnifiedPriceTypeIsRequired" xml:space="preserve">
+    <value>省统一价格类型必填</value>
+    <comment>省统一价格类型必填</comment>
+  </data>
+  <data name="Label_ProvincialUniformPriceIsRequired" xml:space="preserve">
+    <value>省统一价格必填</value>
+    <comment>省统一价格必填</comment>
+  </data>
+  <data name="Label_PurposeOrMatter" xml:space="preserve">
+    <value>目的或事项</value>
+    <comment>目的或事项</comment>
+  </data>
+  <data name="Label_Reason" xml:space="preserve">
+    <value>原因</value>
+    <comment>原因</comment>
+  </data>
+  <data name="Label_ReasonForChange" xml:space="preserve">
+    <value>变更原因</value>
+    <comment>变更原因</comment>
+  </data>
+  <data name="Label_ReasonForChange1" xml:space="preserve">
+    <value>更改原因</value>
+    <comment>更改原因</comment>
+  </data>
+  <data name="Label_ReasonsAndNotes" xml:space="preserve">
+    <value>原因及备注</value>
+    <comment>原因及备注</comment>
+  </data>
+  <data name="Label_ReasonsForChangeInGrossProfit" xml:space="preserve">
+    <value>毛利变更原因</value>
+    <comment>毛利变更原因</comment>
+  </data>
+  <data name="Label_RebateDiscountReleaseNumber" xml:space="preserve">
+    <value>回款折让版本号</value>
+    <comment>回款折让版本号</comment>
+  </data>
+  <data name="Label_RebatePoints1" xml:space="preserve">
+    <value>返利点数</value>
+    <comment>返利点数</comment>
+  </data>
+  <data name="Label_RebatePoints2" xml:space="preserve">
+    <value>回扣点数</value>
+    <comment>回扣点数</comment>
+  </data>
+  <data name="Label_RebateRebateDays" xml:space="preserve">
+    <value>回扣返利天数</value>
+    <comment>回扣返利天数</comment>
+  </data>
+  <data name="Label_ReceiptDate" xml:space="preserve">
+    <value>收款日期</value>
+    <comment>收款日期</comment>
+  </data>
+  <data name="Label_ReferencePriceRequired" xml:space="preserve">
+    <value>参考价格必填</value>
+    <comment>参考价格必填</comment>
+  </data>
+  <data name="Label_RefundPoints" xml:space="preserve">
+    <value>回款返利点</value>
+    <comment>回款返利点</comment>
+  </data>
+  <data name="Label_RepaymentDays" xml:space="preserve">
+    <value>回款天数</value>
+    <comment>回款天数</comment>
+  </data>
+  <data name="Label_Report" xml:space="preserve">
+    <value>报告</value>
+    <comment>报告</comment>
+  </data>
+  <data name="Label_Requisition" xml:space="preserve">
+    <value>申请单</value>
+    <comment>申请单</comment>
+  </data>
+  <data name="Label_ReservePrice" xml:space="preserve">
+    <value>底价</value>
+    <comment>底价</comment>
+  </data>
+  <data name="Label_SalesBasePrice" xml:space="preserve">
+    <value>销售基准价</value>
+    <comment>销售基准价</comment>
+  </data>
+  <data name="Label_SalesBasePriceType" xml:space="preserve">
+    <value>销售基准价类型</value>
+    <comment>销售基准价类型</comment>
+  </data>
+  <data name="Label_SalesDepartmentApproval" xml:space="preserve">
+    <value>销售部负责人审批</value>
+    <comment>销售部负责人审批</comment>
+  </data>
+  <data name="Label_SalesDiscountApplication" xml:space="preserve">
+    <value>销售折让申请</value>
+    <comment>销售折让申请</comment>
+  </data>
+  <data name="Label_SalesDiscountApproval" xml:space="preserve">
+    <value>销售折让审批</value>
+    <comment>销售折让审批</comment>
+  </data>
+  <data name="Label_SalesDiscountNumber" xml:space="preserve">
+    <value>销售折让单编号</value>
+    <comment>销售折让单编号</comment>
+  </data>
+  <data name="Label_SalesGroup" xml:space="preserve">
+    <value>销售组</value>
+    <comment>销售组</comment>
+  </data>
+  <data name="Label_SalesProvince" xml:space="preserve">
+    <value>销售省份</value>
+    <comment>销售省份</comment>
+  </data>
+  <data name="Label_SalesToCommercialGrossMargin" xml:space="preserve">
+    <value>销往商业毛利率</value>
+    <comment>销往商业毛利率</comment>
+  </data>
+  <data name="Label_SalesToMilitaryRegion" xml:space="preserve">
+    <value>销往军区毛利率</value>
+    <comment>销往军区毛利率</comment>
+  </data>
+  <data name="Label_SaveDataFirst" xml:space="preserve">
+    <value>请先保存数据</value>
+    <comment>请先保存数据</comment>
+  </data>
+  <data name="Label_SaveDiscountTermsMasterDataFirst" xml:space="preserve">
+    <value>请先保存折让条款主数据</value>
+    <comment>请先保存折让条款主数据</comment>
+  </data>
+  <data name="Label_SavedSuccessfully" xml:space="preserve">
+    <value>保存成功</value>
+    <comment>保存成功</comment>
+  </data>
+  <data name="Label_SaveMasterDataFirst" xml:space="preserve">
+    <value>请先保存主数据</value>
+    <comment>请先保存主数据</comment>
+  </data>
+  <data name="Label_SaveMasterInformationFirst" xml:space="preserve">
+    <value>请先保存主单信息</value>
+    <comment>请先保存主单信息</comment>
+  </data>
+  <data name="Label_SecondaryBusiness" xml:space="preserve">
+    <value>二级商业</value>
+    <comment>二级商业</comment>
+  </data>
+  <data name="Label_SecondBargaining" xml:space="preserve">
+    <value>二次议价</value>
+    <comment>二次议价</comment>
+  </data>
+  <data name="Label_SelectCustomer" xml:space="preserve">
+    <value>请选择客户</value>
+    <comment>请选择客户</comment>
+  </data>
+  <data name="Label_SelectCustomers" xml:space="preserve">
+    <value>选择客户</value>
+    <comment>选择客户</comment>
+  </data>
+  <data name="Label_SelectDealer" xml:space="preserve">
+    <value>选择经销商</value>
+    <comment>选择经销商</comment>
+  </data>
+  <data name="Label_SelectDealer1" xml:space="preserve">
+    <value>请先选择经销商</value>
+    <comment>请先选择经销商</comment>
+  </data>
+  <data name="Label_SelectEndCustomer" xml:space="preserve">
+    <value>选择终端客户</value>
+    <comment>选择终端客户</comment>
+  </data>
+  <data name="Label_SelectionPolicy" xml:space="preserve">
+    <value>选择政策</value>
+    <comment>选择政策</comment>
+  </data>
+  <data name="Label_SelectProduct" xml:space="preserve">
+    <value>请先选择产品</value>
+    <comment>请先选择产品</comment>
+  </data>
+  <data name="Label_SelectProduct1" xml:space="preserve">
+    <value>请选择产品</value>
+    <comment>请选择产品</comment>
+  </data>
+  <data name="Label_SelectUser" xml:space="preserve">
+    <value>选择用户</value>
+    <comment>选择用户</comment>
+  </data>
+  <data name="Label_SettlementEffectiveDate" xml:space="preserve">
+    <value>结算生效日期</value>
+    <comment>结算生效日期</comment>
+  </data>
+  <data name="Label_SettlementExpirationDate" xml:space="preserve">
+    <value>结算失效日期</value>
+    <comment>结算失效日期</comment>
+  </data>
+  <data name="Label_ShutDown" xml:space="preserve">
+    <value>关闭</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="Label_SingleDiscount" xml:space="preserve">
+    <value>单支折让</value>
+    <comment>单支折让</comment>
+  </data>
+  <data name="Label_SoldToABusinessName" xml:space="preserve">
+    <value>销往商业名称</value>
+    <comment>销往商业名称</comment>
+  </data>
+  <data name="Label_SoldToBusiness" xml:space="preserve">
+    <value>销往商业</value>
+    <comment>销往商业</comment>
+  </data>
+  <data name="Label_SoldToCommercialBenchmarkPrice" xml:space="preserve">
+    <value>销往商业基准价</value>
+    <comment>销往商业基准价</comment>
+  </data>
+  <data name="Label_SoldToCommercialBenchmarkPriceType" xml:space="preserve">
+    <value>销往商业基准价类型</value>
+    <comment>销往商业基准价类型</comment>
+  </data>
+  <data name="Label_SoldToCommercialLevel" xml:space="preserve">
+    <value>销往商业级别</value>
+    <comment>销往商业级别</comment>
+  </data>
+  <data name="Label_SoldToCommercialTransferPrices" xml:space="preserve">
+    <value>销往商业调拨价</value>
+    <comment>销往商业调拨价</comment>
+  </data>
+  <data name="Label_SoldToMilitaryBasePrice" xml:space="preserve">
+    <value>销往军区基准价</value>
+    <comment>销往军区基准价</comment>
+  </data>
+  <data name="Label_SoldToMilitaryDistrict" xml:space="preserve">
+    <value>销往军区调拨价</value>
+    <comment>销往军区调拨价</comment>
+  </data>
+  <data name="Label_SoldToMilitaryZoneBasePriceType" xml:space="preserve">
+    <value>销往军区基准价类型</value>
+    <comment>销往军区基准价类型</comment>
+  </data>
+  <data name="Label_SoldToProvinces" xml:space="preserve">
+    <value>销往省份</value>
+    <comment>销往省份</comment>
+  </data>
+  <data name="Label_SoldToProvincialBenchmarkPrice" xml:space="preserve">
+    <value>销往省份基准价</value>
+    <comment>销往省份基准价</comment>
+  </data>
+  <data name="Label_Start" xml:space="preserve">
+    <value>开始</value>
+    <comment>开始</comment>
+  </data>
+  <data name="Label_Status" xml:space="preserve">
+    <value>状态</value>
+    <comment>状态</comment>
+  </data>
+  <data name="Label_String" xml:space="preserve">
+    <value>的字符串</value>
+    <comment>的字符串</comment>
+  </data>
+  <data name="Label_SubList" xml:space="preserve">
+    <value>子单</value>
+    <comment>子单</comment>
+  </data>
+  <data name="Label_SubmitComments" xml:space="preserve">
+    <value>提交意见</value>
+    <comment>提交意见</comment>
+  </data>
+  <data name="Label_Subsidy" xml:space="preserve">
+    <value>补贴</value>
+    <comment>补贴</comment>
+  </data>
+  <data name="Label_SubsidyAmount" xml:space="preserve">
+    <value>补贴金额</value>
+    <comment>补贴金额</comment>
+  </data>
+  <data name="Label_SubsidyOptions" xml:space="preserve">
+    <value>补贴选择</value>
+    <comment>补贴选择</comment>
+  </data>
+  <data name="Label_SubsidyPoints" xml:space="preserve">
+    <value>补贴点数</value>
+    <comment>补贴点数</comment>
+  </data>
+  <data name="Label_SupplementaryApplication" xml:space="preserve">
+    <value>补充申请</value>
+    <comment>补充申请</comment>
+  </data>
+  <data name="Label_SupplementaryApplicationFillInApplicationNote" xml:space="preserve">
+    <value>补充申请请填写申请备注</value>
+    <comment>补充申请请填写申请备注</comment>
+  </data>
+  <data name="Label_SupplementaryPoints" xml:space="preserve">
+    <value>补差点数</value>
+    <comment>补差点数</comment>
+  </data>
+  <data name="Label_SupplierName" xml:space="preserve">
+    <value>供货商名称</value>
+    <comment>供货商名称</comment>
+  </data>
+  <data name="Label_SupplierNameMustBeSaved" xml:space="preserve">
+    <value>供货商名称必须保存</value>
+    <comment>供货商名称必须保存</comment>
+  </data>
+  <data name="Label_TenThousand" xml:space="preserve">
+    <value>万</value>
+    <comment>万</comment>
+  </data>
+  <data name="Label_TerminalClientCode" xml:space="preserve">
+    <value>终端客户编码</value>
+    <comment>终端客户编码</comment>
+  </data>
+  <data name="Label_Termination" xml:space="preserve">
+    <value>终止</value>
+    <comment>终止</comment>
+  </data>
+  <data name="Label_TermsAndConditions" xml:space="preserve">
+    <value>条款明细</value>
+    <comment>条款明细</comment>
+  </data>
+  <data name="Label_TermsEffectiveTime" xml:space="preserve">
+    <value>条款生效时间</value>
+    <comment>条款生效时间</comment>
+  </data>
+  <data name="Label_TermsType" xml:space="preserve">
+    <value>条款类型</value>
+    <comment>条款类型</comment>
+  </data>
+  <data name="Label_Text" xml:space="preserve">
+    <value>文本</value>
+    <comment>文本</comment>
+  </data>
+  <data name="Label_Thaw" xml:space="preserve">
+    <value>解冻</value>
+    <comment>解冻</comment>
+  </data>
+  <data name="Label_ToDoIs" xml:space="preserve">
+    <value>待办事项为</value>
+    <comment>待办事项为</comment>
+  </data>
+  <data name="Label_TotalAmountOfSubsidy" xml:space="preserve">
+    <value>补贴总金额</value>
+    <comment>补贴总金额</comment>
+  </data>
+  <data name="Label_TotalGrossProfitAfterChange" xml:space="preserve">
+    <value>变更后总毛利</value>
+    <comment>变更后总毛利</comment>
+  </data>
+  <data name="Label_TotalGrossProfitBeforeChange" xml:space="preserve">
+    <value>变更前总毛利</value>
+    <comment>变更前总毛利</comment>
+  </data>
+  <data name="Label_TransferPrice" xml:space="preserve">
+    <value>调拨价</value>
+    <comment>调拨价</comment>
+  </data>
+  <data name="Label_TransferringProvinces" xml:space="preserve">
+    <value>调拨省份</value>
+    <comment>调拨省份</comment>
+  </data>
+  <data name="Label_TransferType" xml:space="preserve">
+    <value>调拨类型</value>
+    <comment>调拨类型</comment>
+  </data>
+  <data name="Label_UnitPrice" xml:space="preserve">
+    <value>单价</value>
+    <comment>单价</comment>
+  </data>
+  <data name="Label_Unprocessed" xml:space="preserve">
+    <value>未处理</value>
+    <comment>未处理</comment>
+  </data>
+  <data name="Label_Updated" xml:space="preserve">
+    <value>更新</value>
+    <comment>更新</comment>
+  </data>
+  <data name="Label_UpdatingFiles" xml:space="preserve">
+    <value>附件上传</value>
+    <comment>附件上传</comment>
+  </data>
+  <data name="Label_Urgent" xml:space="preserve">
+    <value>紧急</value>
+    <comment>紧急</comment>
+  </data>
+  <data name="Label_UrgentApplication" xml:space="preserve">
+    <value>是否紧急申请</value>
+    <comment>是否紧急申请</comment>
+  </data>
+  <data name="Label_UsedCredit" xml:space="preserve">
+    <value>已用额度</value>
+    <comment>已用额度</comment>
+  </data>
+  <data name="Label_VersionNumber" xml:space="preserve">
+    <value>版本号</value>
+    <comment>版本号</comment>
+  </data>
+  <data name="Label_VolumeList" xml:space="preserve">
+    <value>卷列表</value>
+    <comment>卷列表</comment>
+  </data>
+  <data name="Label_WhetherGrossMarginOfFaceNeedsToBeChanged" xml:space="preserve">
+    <value>票面毛利率是否需要变更</value>
+    <comment>票面毛利率是否需要变更</comment>
+  </data>
+  <data name="Label_WhetherSellingPriceIsUniform" xml:space="preserve">
+    <value>销售价格是否统一价格</value>
+    <comment>销售价格是否统一价格</comment>
+  </data>
+  <data name="Label_WithBenchmarkPriceAdjustment" xml:space="preserve">
+    <value>含基准价调整</value>
+    <comment>含基准价调整</comment>
+  </data>
+  <data name="Label_Year" xml:space="preserve">
+    <value>年度</value>
+    <comment>年度</comment>
+  </data>
+  <data name="Label_Year1" xml:space="preserve">
+    <value>年</value>
+    <comment>年</comment>
+  </data>
+  <data name="Label_YearEndAwards" xml:space="preserve">
+    <value>年终奖</value>
+    <comment>年终奖</comment>
+  </data>
+  <data name="Label_YearEndBonus" xml:space="preserve">
+    <value>年终奖励</value>
+    <comment>年终奖励</comment>
+  </data>
+  <data name="Label_AddBusinessPersonnel" xml:space="preserve">
+    <value>添加商务人员</value>
+    <comment>添加商务人员</comment>
+  </data>
+  <data name="Label_AffectedAreaAndSalesVolume" xml:space="preserve">
+    <value>受影响范围及销量</value>
+    <comment>受影响范围及销量</comment>
+  </data>
+  <data name="Label_All" xml:space="preserve">
+    <value>全部</value>
+    <comment>全部</comment>
+  </data>
+  <data name="Label_AnnualGeneralPrice" xml:space="preserve">
+    <value>年度一般价格</value>
+    <comment>年度一般价格</comment>
+  </data>
+  <data name="Label_AnnualPriceReport" xml:space="preserve">
+    <value>年度价格报表</value>
+    <comment>年度价格报表</comment>
+  </data>
+  <data name="Label_AnnualSpecialPrice" xml:space="preserve">
+    <value>年度特殊价格</value>
+    <comment>年度特殊价格</comment>
+  </data>
+  <data name="Label_ApplicationNo" xml:space="preserve">
+    <value>申请单号</value>
+    <comment>申请单号</comment>
+  </data>
+  <data name="Label_ApplyForPersonnel" xml:space="preserve">
+    <value>申请人员</value>
+    <comment>申请人员</comment>
+  </data>
+  <data name="Label_ApplyForProvinces" xml:space="preserve">
+    <value>申请省份</value>
+    <comment>申请省份</comment>
+  </data>
+  <data name="Label_ApplyForReason" xml:space="preserve">
+    <value>申请原因</value>
+    <comment>申请原因</comment>
+  </data>
+  <data name="Label_Approver" xml:space="preserve">
+    <value>审批人</value>
+    <comment>审批人</comment>
+  </data>
+  <data name="Label_AtBeginning" xml:space="preserve">
+    <value>开头</value>
+    <comment>开头</comment>
+  </data>
+  <data name="Label_BillingClientEmail" xml:space="preserve">
+    <value>对账单客户邮箱</value>
+    <comment>对账单客户邮箱</comment>
+  </data>
+  <data name="Label_BusinessAndCustomerRelationships" xml:space="preserve">
+    <value>商务与客户关系</value>
+    <comment>商务与客户关系</comment>
+  </data>
+  <data name="Label_BusinessCustomers" xml:space="preserve">
+    <value>商业客户</value>
+    <comment>商业客户</comment>
+  </data>
+  <data name="Label_BusinessPeople" xml:space="preserve">
+    <value>商务人员</value>
+    <comment>商务人员</comment>
+  </data>
+  <data name="Label_BusinessTeam" xml:space="preserve">
+    <value>商务团队</value>
+    <comment>商务团队</comment>
+  </data>
+  <data name="Label_Cancel" xml:space="preserve">
+    <value>取消</value>
+    <comment>取消</comment>
+  </data>
+  <data name="Label_Choose1" xml:space="preserve">
+    <value>请先选择</value>
+    <comment>请先选择</comment>
+  </data>
+  <data name="Label_City" xml:space="preserve">
+    <value>城市</value>
+    <comment>城市</comment>
+  </data>
+  <data name="Label_ConfirmReset" xml:space="preserve">
+    <value>确认重置</value>
+    <comment>确认重置</comment>
+  </data>
+  <data name="Label_DaysToPay" xml:space="preserve">
+    <value>天内支付</value>
+    <comment>天内支付</comment>
+  </data>
+  <data name="Label_Delivery1" xml:space="preserve">
+    <value>发货</value>
+    <comment>发货</comment>
+  </data>
+  <data name="Label_DiscountOfTime" xml:space="preserve">
+    <value>折让时间</value>
+    <comment>折让时间</comment>
+  </data>
+  <data name="Label_DomainAccount" xml:space="preserve">
+    <value>域账户</value>
+    <comment>域账户</comment>
+  </data>
+  <data name="Label_EffectiveEnd" xml:space="preserve">
+    <value>生效结束</value>
+    <comment>生效结束</comment>
+  </data>
+  <data name="Label_EffectiveStart" xml:space="preserve">
+    <value>生效开始</value>
+    <comment>生效开始</comment>
+  </data>
+  <data name="Label_ExaminationAndApprovalBy" xml:space="preserve">
+    <value>审批通过</value>
+    <comment>审批通过</comment>
+  </data>
+  <data name="Label_ExaminationAndApprovalNode" xml:space="preserve">
+    <value>审批节点</value>
+    <comment>审批节点</comment>
+  </data>
+  <data name="Label_FillInAmountOfRebate" xml:space="preserve">
+    <value>请填写返利金额</value>
+    <comment>请填写返利金额</comment>
+  </data>
+  <data name="Label_FillInCommentsOrComments" xml:space="preserve">
+    <value>请填写提交意见或备注</value>
+    <comment>请填写提交意见或备注</comment>
+  </data>
+  <data name="Label_FillInExtensionTime" xml:space="preserve">
+    <value>请填写顺延时间</value>
+    <comment>请填写顺延时间</comment>
+  </data>
+  <data name="Label_FinancialAttachments" xml:space="preserve">
+    <value>财务附件</value>
+    <comment>财务附件</comment>
+  </data>
+  <data name="Label_FirstSelectWhetherRebate" xml:space="preserve">
+    <value>请先选择是否返利</value>
+    <comment>请先选择是否返利</comment>
+  </data>
+  <data name="Label_Frozen" xml:space="preserve">
+    <value>冻结状态</value>
+    <comment>冻结状态</comment>
+  </data>
+  <data name="Label_ImmediatePayment" xml:space="preserve">
+    <value>立即付款</value>
+    <comment>立即付款</comment>
+  </data>
+  <data name="Label_Increase" xml:space="preserve">
+    <value>增</value>
+    <comment>增</comment>
+  </data>
+  <data name="Label_InExaminationAndApproval" xml:space="preserve">
+    <value>审批中</value>
+    <comment>审批中</comment>
+  </data>
+  <data name="Label_InNew" xml:space="preserve">
+    <value>新建中</value>
+    <comment>新建中</comment>
+  </data>
+  <data name="Label_KindOf" xml:space="preserve">
+    <value>种</value>
+    <comment>种</comment>
+  </data>
+  <data name="Label_LadderPrice1" xml:space="preserve">
+    <value>阶梯价格</value>
+    <comment>阶梯价格</comment>
+  </data>
+  <data name="Label_Latest" xml:space="preserve">
+    <value>最新</value>
+    <comment>最新</comment>
+  </data>
+  <data name="Label_LookAtAll" xml:space="preserve">
+    <value>查看全部</value>
+    <comment>查看全部</comment>
+  </data>
+  <data name="Label_MaintainNewAllowanceClauseDetails" xml:space="preserve">
+    <value>请维护新的折让条款明细项</value>
+    <comment>请维护新的折让条款明细项</comment>
+  </data>
+  <data name="Label_MaintainProductDetails" xml:space="preserve">
+    <value>请维护产品明细项</value>
+    <comment>请维护产品明细项</comment>
+  </data>
+  <data name="Label_MaintainProductPriceDetails" xml:space="preserve">
+    <value>请维护产品价格明细项</value>
+    <comment>请维护产品价格明细项</comment>
+  </data>
+  <data name="Label_New" xml:space="preserve">
+    <value>新</value>
+    <comment>新</comment>
+  </data>
+  <data name="Label_NumberTo" xml:space="preserve">
+    <value>编号以</value>
+    <comment>编号以</comment>
+  </data>
+  <data name="Label_OpenTicket" xml:space="preserve">
+    <value>开票价</value>
+    <comment>开票价</comment>
+  </data>
+  <data name="Label_OperationIsSuccessful" xml:space="preserve">
+    <value>操作成功</value>
+    <comment>操作成功</comment>
+  </data>
+  <data name="Label_PackagePrice1" xml:space="preserve">
+    <value>打包价格</value>
+    <comment>打包价格</comment>
+  </data>
+  <data name="Label_Phone" xml:space="preserve">
+    <value>电话</value>
+    <comment>电话</comment>
+  </data>
+  <data name="Label_PolicyCoding" xml:space="preserve">
+    <value>政策编码</value>
+    <comment>政策编码</comment>
+  </data>
+  <data name="Label_Postpone" xml:space="preserve">
+    <value>顺延</value>
+    <comment>顺延</comment>
+  </data>
+  <data name="Label_PostponeEndOf" xml:space="preserve">
+    <value>顺延结束</value>
+    <comment>顺延结束</comment>
+  </data>
+  <data name="Label_PostponeStarting" xml:space="preserve">
+    <value>顺延开始</value>
+    <comment>顺延开始</comment>
+  </data>
+  <data name="Label_PriceInformationChange" xml:space="preserve">
+    <value>价格信息变更</value>
+    <comment>价格信息变更</comment>
+  </data>
+  <data name="Label_PriceIsNotFilledInCorrectly" xml:space="preserve">
     <value>价格填写不正确</value>
     <comment>价格填写不正确</comment>
   </data>
-  <data name="Label_RequireNumberType" xml:space="preserve">
+  <data name="Label_PriceMustBeFilledIn" xml:space="preserve">
     <value>价格必须填数字</value>
     <comment>价格必须填数字</comment>
+  </data>
+  <data name="Label_PriceType" xml:space="preserve">
+    <value>价格类型</value>
+    <comment>价格类型</comment>
+  </data>
+  <data name="Label_Product1" xml:space="preserve">
+    <value>品</value>
+    <comment>品</comment>
+  </data>
+  <data name="Label_ProvincialPriceApplication" xml:space="preserve">
+    <value>省份价格申请</value>
+    <comment>省份价格申请</comment>
+  </data>
+  <data name="Label_ProvincialPriceApproval" xml:space="preserve">
+    <value>省份价格审批</value>
+    <comment>省份价格审批</comment>
+  </data>
+  <data name="Label_Quasi" xml:space="preserve">
+    <value>拟</value>
+    <comment>拟</comment>
+  </data>
+  <data name="Label_RebateAmount" xml:space="preserve">
+    <value>返利金额</value>
+    <comment>返利金额</comment>
+  </data>
+  <data name="Label_Registered" xml:space="preserve">
+    <value>注册</value>
+    <comment>注册</comment>
+  </data>
+  <data name="Label_RemainingAmount" xml:space="preserve">
+    <value>剩余额度</value>
+    <comment>剩余额度</comment>
+  </data>
+  <data name="Label_SalesOffice" xml:space="preserve">
+    <value>销售办事处</value>
+    <comment>销售办事处</comment>
+  </data>
+  <data name="Label_SelectCommercialCustomers" xml:space="preserve">
+    <value>请选择商业客户</value>
+    <comment>请选择商业客户</comment>
+  </data>
+  <data name="Label_SelectCommercialCustomersFirst" xml:space="preserve">
+    <value>请先选择商业客户</value>
+    <comment>请先选择商业客户</comment>
+  </data>
+  <data name="Label_SelectCorrespondingProduct" xml:space="preserve">
+    <value>请选择对应产品</value>
+    <comment>请选择对应产品</comment>
+  </data>
+  <data name="Label_SelectionSort" xml:space="preserve">
+    <value>选择排序</value>
+    <comment>选择排序</comment>
+  </data>
+  <data name="Label_SelectItemThatNeedsToBeDeactivated" xml:space="preserve">
+    <value>选择需要停用的项</value>
+    <comment>选择需要停用的项</comment>
+  </data>
+  <data name="Label_SubmitTeam" xml:space="preserve">
+    <value>提交团队</value>
+    <comment>提交团队</comment>
+  </data>
+  <data name="Label_SubordinateToProvince" xml:space="preserve">
+    <value>所属省份</value>
+    <comment>所属省份</comment>
+  </data>
+  <data name="Label_TeamType" xml:space="preserve">
+    <value>团队类型</value>
+    <comment>团队类型</comment>
+  </data>
+  <data name="Label_TermsOfPayment" xml:space="preserve">
+    <value>付款条件</value>
+    <comment>付款条件</comment>
+  </data>
+  <data name="Label_TermsOfShipment" xml:space="preserve">
+    <value>装运条件</value>
+    <comment>装运条件</comment>
+  </data>
+  <data name="Label_ToResetYourPassword" xml:space="preserve">
+    <value>重置密码</value>
+    <comment>重置密码</comment>
+  </data>
+  <data name="Label_TradeRepresentative" xml:space="preserve">
+    <value>商务代表</value>
+    <comment>商务代表</comment>
+  </data>
+  <data name="Label_TransportArea" xml:space="preserve">
+    <value>运输区</value>
+    <comment>运输区</comment>
+  </data>
+  <data name="Label_UserName" xml:space="preserve">
+    <value>用户名</value>
+    <comment>用户名</comment>
+  </data>
+  <data name="Label_WhetherRebate" xml:space="preserve">
+    <value>是否返利</value>
+    <comment>是否返利</comment>
+  </data>
+  <data name="Label_WhetherToDealInMedicineOrNot" xml:space="preserve">
+    <value>是否经营药品</value>
+    <comment>是否经营药品</comment>
+  </data>
+  <data name="Label_WhetherToPostpone" xml:space="preserve">
+    <value>是否顺延</value>
+    <comment>是否顺延</comment>
+  </data>
+  <data name="Label_ZipCode" xml:space="preserve">
+    <value>邮编</value>
+    <comment>邮编</comment>
   </data>
 </root>
